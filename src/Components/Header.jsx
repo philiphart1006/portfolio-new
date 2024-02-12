@@ -36,7 +36,7 @@ function Header() {
           {({ isOpen }) => (
             <>
               <MenuButton isActive={isOpen} as={Button} rightIcon={<ChevronDownIcon />}>
-                {isOpen ? 'Close' : 'Open'}
+                {isOpen ? 'CLOSE' : 'MENU'}
               </MenuButton>
               <MenuList>
                 <MenuItem>Download</MenuItem>

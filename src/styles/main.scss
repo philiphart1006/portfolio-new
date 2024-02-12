@@ -44,10 +44,10 @@ html {
   }
 
   .wideMode {
-    display: none !important
+    display: none !important;
   }
 
   .skills {
-    @include flex(column, justify-content)
+    @include flex(column, justify-content);
   }
 }

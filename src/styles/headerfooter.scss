@@ -19,6 +19,14 @@ header {
     font-size: 1.3*$standard-sizing;
     padding: $standard-sizing;
   }
+
+  .chakra-menu__menu-button{
+    margin-right: 0;
+    height: 85px;
+    border: none;
+    background-color: $gunmetal;
+    font-size: 1.5*$standard-sizing;
+  }
 }
 
 footer {

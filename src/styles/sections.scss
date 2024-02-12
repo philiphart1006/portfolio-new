@@ -36,6 +36,8 @@ section {
   }
 }
 
+// Skills section
+
 .skills{
   @include flex(row, space-between);
   flex-grow: 4;
@@ -52,6 +54,7 @@ section {
 
   .techSkills, .softSkills {
     flex: 1;
+    max-width: 240px;
   }
 
   * {
@@ -59,16 +62,92 @@ section {
     text-align: center;
   }
 
-  .chakra_card__footer{
-    p {
-      text-align: center;
-    }
-    
-  }
 }
+
+.chakra-card {
+  height: 148px;
+}
+
+.chakra-card__footer{
+  display: flex;
+  justify-content: center;
+  p {
+    text-align: center;
+  }
+  
+}
+
+// Projects section
 
 .projects{
   * {
-    color: $eerie-black;
+    background-color: $eerie-black;
+    color: $warm-ivory;
+  }
+}
+
+.chakra-accordion_button {
+  border: none;
+}
+
+.chakra-accordion {
+  height: 50vh;
+}
+
+.projectIcon{
+  height: 72px;
+  margin-top: $standard-sizing;
+  margin-bottom: $standard-sizing;
+  margin-left: 2 * $standard-sizing;
+  margin-right: 2 * $standard-sizing;
+  border-radius: 10px;
+}
+
+.projectFull {
+  @include flex(row, space-between);
+  padding-left: 2*$standard-sizing;
+  padding-right: 2*$standard-sizing;
+
+  .projectDetails{
+    @include flex(column, space-around);
+    align-items: center;
+  }
+
+  a{
+    font-size: 1.5*$standard-sizing;
+    padding: $standard-sizing;
+    color: $sunset;
+  }
+}
+
+.screenshots {
+  
+  img{
+    max-height: 25vh;
+    max-width: 50vw;
+  }
+}
+
+//  Background section
+
+.background{
+  padding-top: 0;
+
+  img {
+    border-radius: 5px;
+    align-self: center;
+  }
+}
+
+.gallery {
+  @include flex(row, space-around)
+}
+
+@media only screen and (max-width: 768px) {
+  .projectFull {
+    @include flex(column, space-between);
+    align-items: center;
+    padding-left: 1*$standard-sizing;
+    padding-right: 1*$standard-sizing;
   }
 }
