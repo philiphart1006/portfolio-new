@@ -143,10 +143,18 @@ section {
 .background{
   padding-top: 0;
 
+  * {
+    text-align: center;
+  }
+
   img {
     border-radius: 5px;
     align-self: center;
   }
+}
+
+.backgroundContainer {
+  @include flex(row, space-around)
 }
 
 .gallery {
@@ -159,6 +167,16 @@ section {
     align-items: center;
     padding-left: 1*$standard-sizing;
     padding-right: 1*$standard-sizing;
+  }
+
+  .backgroundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+
+    .chakra-card {
+      min-height: 700px
+    }
   }
 }
 

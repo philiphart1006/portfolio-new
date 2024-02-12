@@ -32,7 +32,7 @@ function Background() {
   return (
     <>
       <section className='background' name='background'>
-        <SimpleGrid minChildWidth='300px' spacing='40px' className='backgroundContainer'>
+        <SimpleGrid minChildWidth='220px' spacing='40px' className='backgroundContainer'>
         <Card>
           <CardHeader>
             <Heading size='md' textTransform='uppercase'>Education</Heading>
