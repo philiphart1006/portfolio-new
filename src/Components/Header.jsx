@@ -32,15 +32,16 @@ function Header() {
           <Link to='/background'>BACKGROUND</Link>
         </nav>
         <div className='narrowMode'>
-        <Menu>
+        <Menu className='narrowMenu'>
           {({ isOpen }) => (
             <>
               <MenuButton isActive={isOpen} as={Button} rightIcon={<ChevronDownIcon />}>
                 {isOpen ? 'CLOSE' : 'MENU'}
               </MenuButton>
               <MenuList>
-                <MenuItem>Download</MenuItem>
-                <MenuItem onClick={() => alert('Kagebunshin')}>Create a Copy</MenuItem>
+                <MenuItem><Link className='menuLink' to='/skills'>SKILLS</Link></MenuItem>
+                <MenuItem><Link className='menuLink'  to='/projects'>PROJECTS</Link></MenuItem>
+                <MenuItem><Link className='menuLink'  to='/background'>BACKGROUND</Link></MenuItem>
               </MenuList>
             </>
           )}

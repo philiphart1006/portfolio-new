@@ -10,8 +10,37 @@ import {
 // * Image imports
 import PHLogo from '../assets/PHLogo.png'
 import HTML from '../assets/html.png'
+import HTML2 from '../assets/skills/html.svg'
+import ns from '../assets/skills/ns.svg'
 import CSS from '../assets/css.png'
-import GS from '../assets/Gainsight.jpg'
+import CSS3 from '../assets/skills/css3.png'
+import JS from '../assets/skills/js.png'
+import gainsight from '../assets/skills/gsnxt.png'
+import sass from '../assets/skills/sass.png'
+import node from '../assets/skills/node.png'
+import RC from '../assets/skills/ringcentral.png'
+import TR from '../assets/skills/tr.png'
+import vonage from '../assets/skills/vonage.svg'
+import google from '../assets/skills/google2.png'
+import zapier from '../assets/skills/zapier.png'
+import px from '../assets/skills/px.jpeg'
+import sfdc from '../assets/skills/sfdc.png'
+import hs from '../assets/skills/hs.png'
+import bs from '../assets/skills/bootstrap.png'
+import chakra from '../assets/skills/chakra.svg'
+import npm from '../assets/skills/npm.svg'
+import django from '../assets/skills/django.svg'
+import jwt from '../assets/skills/jwt-3.svg'
+import mongodb from '../assets/skills/mongodb.svg'
+import ex from '../assets/skills/ex.png'
+import insomnia from '../assets/skills/apps-insomnia.svg'
+import gh from '../assets/skills/github.png'
+import git from '../assets/skills/git.png'
+import trello from '../assets/skills/trello.png'
+import jira from '../assets/skills/jira.svg'
+import figma from '../assets/skills/figma.svg'
+import pg from '../assets/skills/postgre.png'
+
 
 
 function Skills() {
@@ -23,7 +52,7 @@ function Skills() {
           <SimpleGrid minChildWidth='100px' spacing='10px' className='backgroundContainer'>
             <Card>
               <CardBody>
-                <img src={HTML}/>
+                <img src={HTML2}/>
               </CardBody>
               <CardFooter>
                 <p>HTML 5</p>
@@ -31,7 +60,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={CSS}/>
+                <img src={CSS3}/>
               </CardBody>
               <CardFooter>
                 <p>CSS</p>
@@ -39,7 +68,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={JS}/>
               </CardBody>
               <CardFooter>
                 <p>JavaScript</p>
@@ -47,7 +76,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={sass}/>
               </CardBody>
               <CardFooter>
                 <p>SASS</p>
@@ -55,7 +84,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={bs}/>
               </CardBody>
               <CardFooter>
                 <p>Bootstrap</p>
@@ -63,7 +92,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={chakra}/>
               </CardBody>
               <CardFooter>
                 <p>ChakraUI</p>
@@ -71,7 +100,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={node}/>
               </CardBody>
               <CardFooter>
                 <p>Node.js</p>
@@ -79,7 +108,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={npm}/>
               </CardBody>
               <CardFooter>
                 <p>npm</p>
@@ -87,7 +116,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={django}/>
               </CardBody>
               <CardFooter>
                 <p>Django</p>
@@ -95,7 +124,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={django}/>
               </CardBody>
               <CardFooter>
                 <p>Django Rest<br/>Framework</p>
@@ -103,7 +132,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={jwt}/>
               </CardBody>
               <CardFooter>
                 <p>JWT</p>
@@ -111,7 +140,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={mongodb}/>
               </CardBody>
               <CardFooter>
                 <p>MongoDB</p>
@@ -119,7 +148,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={ex}/>
               </CardBody>
               <CardFooter>
                 <p>Express</p>
@@ -127,7 +156,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={pg}/>
               </CardBody>
               <CardFooter>
                 <p>PostgreSQL</p>
@@ -135,7 +164,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={insomnia}/>
               </CardBody>
               <CardFooter>
                 <p>Insomnia</p>
@@ -143,7 +172,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={git}/>
               </CardBody>
               <CardFooter>
                 <p>Git</p>
@@ -151,7 +180,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={gh}/>
               </CardBody>
               <CardFooter>
                 <p>GitHub</p>
@@ -159,7 +188,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={trello}/>
               </CardBody>
               <CardFooter>
                 <p>Trello</p>
@@ -167,7 +196,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={jira}/>
               </CardBody>
               <CardFooter>
                 <p>JIRA</p>
@@ -175,7 +204,7 @@ function Skills() {
             </Card>
             <Card>
               <CardBody>
-                <img src={PHLogo}/>
+                <img src={figma}/>
               </CardBody>
               <CardFooter>
                 <p>Figma</p>
@@ -188,7 +217,7 @@ function Skills() {
             <SimpleGrid minChildWidth='100px' spacing='10px' className='backgroundContainer'>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={sfdc}/>
                 </CardBody>
                 <CardFooter>
                   <p>Salesforce</p>
@@ -196,7 +225,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={GS}/>
+                  <img src={gainsight}/>
                 </CardBody>
                 <CardFooter>
                   <p>Gainsight<br></br> NXT</p>
@@ -204,7 +233,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={px}/>
                 </CardBody>
                 <CardFooter>
                   <p>Gainsight PX</p>
@@ -212,7 +241,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={hs}/>
                 </CardBody>
                 <CardFooter>
                   <p>Hubspot</p>
@@ -220,7 +249,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={ns}/>
                 </CardBody>
                 <CardFooter>
                   <p>Oracle Netsuite</p>
@@ -232,7 +261,7 @@ function Skills() {
             <SimpleGrid minChildWidth='100px' spacing='10px' className='backgroundContainer'>
             <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={google}/>
                 </CardBody>
                 <CardFooter>
                   <p>Google Suite</p>
@@ -240,7 +269,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={vonage}/>
                 </CardBody>
                 <CardFooter>
                   <p>Vonage Contact Center</p>
@@ -248,7 +277,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={RC}/>
                 </CardBody>
                 <CardFooter>
                   <p>RingCentral</p>
@@ -256,7 +285,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={TR}/>
                 </CardBody>
                 <CardFooter>
                   <p>TaskRay</p>
@@ -264,7 +293,7 @@ function Skills() {
               </Card>
               <Card>
                 <CardBody>
-                  <img src={PHLogo}/>
+                  <img src={zapier}/>
                 </CardBody>
                 <CardFooter>
                   <p>Zapier iPaaS</p>

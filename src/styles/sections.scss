@@ -26,7 +26,6 @@ section {
     width: 30%;
     text-align: center;
     color: $magenta-haze;
-    font-weight: bold;
     background-color: $sunset-transl;
     margin: 0 auto;
     border: none;
@@ -84,6 +83,12 @@ section {
     background-color: $eerie-black;
     color: $warm-ivory;
   }
+
+  span {
+    padding-left: $standard-sizing;
+    padding-right: $standard-sizing;
+    font-size: large;
+  }
 }
 
 .chakra-accordion_button {
@@ -111,6 +116,11 @@ section {
   .projectDetails{
     @include flex(column, space-around);
     align-items: center;
+    padding-left: $standard-sizing;
+  }
+
+  p{
+    text-align: center;
   }
 
   a{
@@ -123,7 +133,7 @@ section {
 .screenshots {
   
   img{
-    max-height: 25vh;
+    max-height: 20vh;
     max-width: 50vw;
   }
 }
@@ -151,3 +161,5 @@ section {
     padding-right: 1*$standard-sizing;
   }
 }
+
+// Overriding CSS
