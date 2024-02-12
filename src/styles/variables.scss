@@ -1,0 +1,17 @@
+// Generated from logo by https://coolors.co/image-picker
+/* SCSS HEX */
+$magenta-haze: #94286Fff;
+$sunset: #E5C58Eff;
+$cinnabar: #E55C3Eff;
+$eerie-black: #141E20ff;
+$gunmetal: #072D37ff;
+$warm-ivory: #F2EDEBff;
+$warm-mid-tone-grey: #A8A8A8ff;
+
+$standard-sizing: 16px;
+
+@mixin flex($direction, $justify){
+  display:flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+}

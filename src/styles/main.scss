@@ -1,0 +1,53 @@
+// Import global sheets
+@import './variables.scss';
+
+// Import components
+@import './headerfooter.scss';
+@import './sections.scss';
+
+
+// * Universal
+
+body{
+  margin: 0;
+  background-color: $eerie-black;
+}
+
+#root {
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+*{
+  // font-family: 'Poppins', Verdana, sans-serif;
+  font-family: 'Quicksand', Verdana, sans-serif;
+  // font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: $warm-ivory
+}
+
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+
+.narrowMode {
+  display: none !important;
+}
+
+// * Set breakpoints for smaller than landscape tablet at 768px
+@media only screen and (max-width: 768px) {
+  .narrowMode {
+    display: inline !important;
+  }
+
+  .wideMode {
+    display: none !important
+  }
+
+  .skills {
+    @include flex(column, justify-content)
+  }
+}

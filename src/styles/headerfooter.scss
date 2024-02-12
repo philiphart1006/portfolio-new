@@ -1,0 +1,49 @@
+// * Header & Footer
+
+header {
+  @include flex(row, space-between);
+  align-items: center;
+  background-color: $gunmetal;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  img {
+    height: 48px;
+    aspect-ratio: 1/1;
+  }
+
+  a {
+    text-decoration: none;
+    color: $warm-ivory;
+    font-weight: 700;
+    font-size: 1.3*$standard-sizing;
+    padding: $standard-sizing;
+  }
+}
+
+footer {
+  @include flex(row, center);
+  align-items: center;
+  background-color: $gunmetal;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  // height: 4.5*$standard-sizing;
+
+  *{
+    padding: 0.25* $standard-sizing
+  }
+
+  img {
+    height: 2*$standard-sizing;
+    aspect-ratio: 1/1;
+  }
+
+  .gmLogo{
+    height: 1.5*$standard-sizing;
+    padding-bottom: 0.5*$standard-sizing;
+    padding-left: 0.5*$standard-sizing;
+  }
+}
