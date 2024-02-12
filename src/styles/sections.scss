@@ -6,7 +6,7 @@ section {
 }
 
 .hero {
-  height: calc(100vh - 200px);
+  height: calc(60vh - 200px);
   img{
     height: 240px;
     aspect-ratio: 1/1;
@@ -21,6 +21,19 @@ section {
 .about {
   line-height: 2;
   font-size: 1.2*$standard-sizing;
+
+  .chakra-tabs__tab{
+    width: 30%;
+    text-align: center;
+    color: $magenta-haze;
+    font-weight: bold;
+    background-color: $sunset-transl;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5*$standard-sizing;
+    font-size: $standard-sizing;
+  }
 }
 
 .skills{

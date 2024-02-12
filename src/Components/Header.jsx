@@ -27,7 +27,6 @@ function Header() {
       <header>
         <Link to='/'><img className='personalLogo' src={PHLogo}/></Link>
         <nav className='mainMenu wideMode'>
-          <Link to='/about'>ABOUT</Link>
           <Link to='/skills'>SKILLS</Link>
           <Link to='/projects'>PROJECTS</Link>
           <Link to='/background'>BACKGROUND</Link>
