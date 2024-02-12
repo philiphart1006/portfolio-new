@@ -17,6 +17,7 @@ import HRTy from '../assets/hrt_favi.png'
 import TetrisSS from '../assets/tetrisSS.png'
 import TumbleSS from '../assets/tumbletellerss.png'
 import SoftwareSS from '../assets/softwaress.png'
+import HRTySS from '../assets/hrtyss.png'
 
 
 function Projects() {
@@ -124,10 +125,10 @@ function Projects() {
             </h2>
             <AccordionPanel pb={4} className='projectFull'>
               <div className='screenshots'>
-                <img src={TetrisSS}/>
+                <img className='bottomImage' src={HRTySS}/>
                 <img />
               </div>
-              <div className='projectDetails'>
+              <div className='projectDetails bottomDetails'>
                 <div className='projectLinks'>
                     <a target='_blank' rel='noreferrer' href='https://philiphart1006.github.io/classical-tetris/'>Visit</a>
                     <a target='_blank' rel='noreferrer' href='https://github.com/philiphart1006/classical-tetris/blob/main/README.md'>ReadMe</a>

@@ -128,6 +128,11 @@ section {
     padding: $standard-sizing;
     color: $sunset;
   }
+
+  .bottomDetails{
+    justify-content: left;
+    margin-top: 50px;
+  }
 }
 
 .screenshots {
@@ -135,6 +140,10 @@ section {
   img{
     max-height: 20vh;
     max-width: 50vw;
+  }
+
+  .bottomImage {
+    margin-bottom: 120px;
   }
 }
 
@@ -150,6 +159,11 @@ section {
   img {
     border-radius: 5px;
     align-self: center;
+  }
+
+  h2{
+    margin: 0.5*$standard-sizing;
+    
   }
 }
 
@@ -174,10 +188,11 @@ section {
     flex-direction: column;
     justify-content: space-evenly !important;
 
-    .chakra-card {
-      min-height: 700px
+    .backgroundCard {
+      min-height: 620px
     }
   }
+  
 }
 
 // Overriding CSS

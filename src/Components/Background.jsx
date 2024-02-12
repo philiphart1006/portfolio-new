@@ -33,7 +33,7 @@ function Background() {
     <>
       <section className='background' name='background'>
         <SimpleGrid minChildWidth='220px' spacing='40px' className='backgroundContainer'>
-        <Card>
+        <Card className='backgroundCard'>
           <CardHeader>
             <Heading size='md' textTransform='uppercase'>Education</Heading>
           </CardHeader>
@@ -67,7 +67,7 @@ function Background() {
           </CardBody>
         </Card>
 
-        <Card>
+        <Card className='backgroundCard'>
           <CardHeader>
             <Heading size='md'>HOME</Heading>
           </CardHeader>
