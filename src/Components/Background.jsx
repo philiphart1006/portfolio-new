@@ -130,7 +130,7 @@ function Background() {
                   <img src={sing2} width={150}/>
                 </div>
                 <Text pt='2' fontSize='sm'>
-                  Having had the opportunity to travel globally on choir tours at school & university, I continue to enjoy choral music at the local cathedral evensong services as well as when visiting new cities.
+                  Having had the opportunity to travel globally on choir tours at school & university, I continue to enjoy choral music at the local cathedral evensong services as well as when visiting new cities.<br></br><br></br><br></br>
                 </Text>
               </Box>
             </Stack>

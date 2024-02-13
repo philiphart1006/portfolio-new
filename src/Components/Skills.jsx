@@ -10,7 +10,8 @@ import {
 // * Image imports
 import PHLogo from '../assets/PHLogo.png'
 import HTML from '../assets/html.png'
-import HTML2 from '../assets/skills/html.svg'
+import HTML3 from '../assets/skills/html.svg'
+import HTML2 from '../assets/skills/html.png'
 import ns from '../assets/skills/ns.svg'
 import CSS from '../assets/css.png'
 import CSS3 from '../assets/skills/css3.png'
@@ -49,6 +50,9 @@ function Skills() {
     <>
       <section className='skills' name='skills'>
           <div className='codingSkills'>
+          <div className='skillsTitle'>
+              <p>Coding Skills</p>
+            </div>
           <SimpleGrid minChildWidth='100px' spacing='10px' className='backgroundContainer'>
             <Card>
               <CardBody>
@@ -214,6 +218,9 @@ function Skills() {
           </SimpleGrid>
           </div>
           <div className='techSkills'>
+            <div className='skillsTitle'>
+              <p>CRM Skills</p>
+            </div>
             <SimpleGrid minChildWidth='100px' spacing='10px' className='backgroundContainer'>
               <Card>
                 <CardBody>
@@ -258,6 +265,9 @@ function Skills() {
             </SimpleGrid>
           </div>
           <div className='softSkills'>
+          <div className='skillsTitle'>
+              <p>Other integrations</p>
+            </div>
             <SimpleGrid minChildWidth='100px' spacing='10px' className='backgroundContainer'>
             <Card>
                 <CardBody>

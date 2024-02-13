@@ -125,15 +125,15 @@ function Projects() {
             </h2>
             <AccordionPanel pb={4} className='projectFull'>
               <div className='screenshots'>
-                <img className='bottomImage' src={HRTySS}/>
+                <img src={HRTySS}/>
                 <img />
               </div>
               <div className='projectDetails bottomDetails'>
                 <div className='projectLinks'>
-                    <a target='_blank' rel='noreferrer' href='https://philiphart1006.github.io/classical-tetris/'>Visit</a>
-                    <a target='_blank' rel='noreferrer' href='https://github.com/philiphart1006/classical-tetris/blob/main/README.md'>ReadMe</a>
+                    <a target='_blank' rel='noreferrer' href='https://hrtyhr-4d765332eef7.herokuapp.com/'>Visit</a>
+                    <a target='_blank' rel='noreferrer' href='https://github.com/philiphart1006/hrty/blob/main/README.md'>ReadMe</a>
                 </div>
-                <p>An HR technology app for tracking teams, employees, subscriptions, and hardware using Django & PostgreSQL for the back-end and React for the front-end</p>
+                <p>An HR technology app for tracking teams, employees, subscriptions, and hardware using Django & PostgreSQL for the back-end and React for the front-end<br></br><br></br><br></br></p>
               </div>
                 
                 <div className='coreSkills'>

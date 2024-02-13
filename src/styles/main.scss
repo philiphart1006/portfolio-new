@@ -59,6 +59,7 @@ html {
 
 main {
   margin-bottom: 150px;
+  min-height: calc(100vh - 137px);
 }
 
 // * Set breakpoints for smaller than landscape tablet at 768px

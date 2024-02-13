@@ -31,7 +31,13 @@ section {
     border: none;
     border-radius: 10px;
     padding: 0.5*$standard-sizing;
-    font-size: $standard-sizing;
+    font-size: 1 * $standard-sizing;
+  }
+
+  .chakra-tabs__tab[aria-selected="true"]{
+    font-size: 1.5 * $standard-sizing;
+    border: solid;
+    border-color: $warm-mid-tone-grey
   }
 }
 
@@ -49,6 +55,17 @@ section {
   .codingSkills {
     flex-wrap: wrap;
     flex: 2;
+    border-right: solid;
+    border-right-color: $gunmetal;
+    border-right-width: 2px;
+    margin-right: 8px;
+  }
+
+  .techSkills{
+    border-right: solid;
+    border-right-color: $gunmetal;
+    border-right-width: 2px;
+    margin-right: 8px;
   }
 
   .techSkills, .softSkills {
@@ -192,7 +209,17 @@ section {
       min-height: 620px
     }
   }
+
+  .techSkills, .codingSkills {
+    border-right: none !important;
+    border-radius: 0px;
+    margin-right: 0px !important;
+  }
   
 }
 
 // Overriding CSS
+
+.css-5wl5ud{
+  font-weight: 700;
+}
